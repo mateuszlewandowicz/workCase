@@ -1,3 +1,30 @@
+/*============= Media QUERIES =============*/
+
+@media only screen and (max-width: 700px) {
+  .textbox {
+    display: none;
+  }
+  .navigator {
+    display: none;
+  }
+  #EBACE_NBAA_Medica_Orgatec__IDS {
+    display: none;
+  }
+  .legendsmaps{
+    position: fixed;
+  }
+  .title{
+    position: fixed;
+  }
+}
+
+
+
+
+
+
+
+
 
 .mediaViewInfo {
   --web-view-name: Canvas;
@@ -6361,6 +6388,9 @@
 }
 #Path_521 {
   fill: rgba(119,9,18,1);
+}
+#Path_521:hover {
+  fill: rgba(255,255,255,1);
 }
 .Path_521 {
   overflow: visible;

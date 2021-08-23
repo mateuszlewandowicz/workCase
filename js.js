@@ -34,21 +34,14 @@ const prepareDOMEvents = () => {
 
 
 
-
-
 const MoveParis = () => {
-    console.log(Path_521);
-    console.log(World_ahead);
-    console.log(Paris_Air_Show);
-    console.log(Rectangle_12_copy_3);
-    console.log(Paris_Air_Namebox);
-    console.log(EBACE_NBAA_Medica_Orgatec__IDS);
     World_ahead.style.display = 'none';
     Paris_Air_Show.style.display = 'flex';
     Shape_6_copy_18.style.display = 'flex';
     Paris_France.style.display = 'flex';
+    
+    Paris_Air_Namebox.style.color = '255,255,255,1';
 
-    Path_521.style.fill = "255,255,255";
 
     EBACE_NBAA_Medica_Orgatec__IDS.style.color = '0,0,0,1';
     EBACE_NBAA_Medica_Orgatec__IDS.style.opacity = '0.4';
@@ -59,8 +52,7 @@ const MoveParis = () => {
     Mosbuild_BAU_Paris_Air_Show_Ce.style.color = '0,0,0,1';
     Mosbuild_BAU_Paris_Air_Show_Ce.style.opacity = '0.4';
 
-    Paris_Air_Namebox.style.color = '255,255,255,1';
-    Paris_Air_Namebox.style.opacity = '1';
+
 };
 
 
